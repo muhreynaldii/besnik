@@ -1,0 +1,238 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+.container {
+  width: 100%;
+  margin: 0 auto;
+}
+
+@media screen and (min-width: 640px) {
+  .container {
+    max-width: 640px;
+  }
+}
+
+@media screen and (min-width: 768px) {
+  .container {
+    max-width: 768px;
+  }
+}
+
+@media screen and (min-width: 1024px) {
+  .container {
+    max-width: 1024px;
+  }
+}
+
+@media screen and (min-width: 1204px) {
+  .container {
+    max-width: 1204px;
+  }
+}
+
+header {
+  display: flex;
+  align-items: center;
+}
+
+header.container {
+  margin-top: 40px;
+}
+
+header nav {
+  font-size: 14px;
+  width: 45%;
+}
+
+header nav a {
+  text-decoration: none;
+  font-family: "Roboto", sans-serif;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 20px;
+  color: #404041;
+  padding-right: 44px;
+}
+
+header div.logo {
+  width: 10%;
+  display: flex;
+  justify-content: center;
+}
+
+header div.icon {
+  width: 45%;
+  display: flex;
+  justify-content: end;
+}
+
+main div article#hero {
+  display: flex;
+  align-items: center;
+}
+
+main div article#hero .content {
+  width: 40%;
+}
+
+main div article#hero .content h1 {
+  color: #222223;
+  font-weight: 700;
+  font-size: 80px;
+  font-family: "Bai Jamjuree", sans-serif;
+  margin-bottom: 30px;
+  height: 160px;
+  line-height: 80px;
+}
+
+main div article#hero .content p.desc {
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 30px;
+  letter-spacing: 0.01em;
+  font-family: "Roboto", sans-serif;
+  color: #535354;
+  margin-bottom: 30px;
+  width: 280px;
+}
+
+main div article#hero .card {
+  width: 60%;
+}
+
+main div article#hero .card img {
+  object-fit: cover;
+}
+
+main div article#hero .content div {
+  display: flex;
+  align-items: center;
+  height: 50px;
+}
+
+main div article#hero .content div p {
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 30px;
+  letter-spacing: 0.01em;
+  font-family: "Roboto", sans-serif;
+  color: #222223;
+  padding-left: 18px;
+}
+
+main div article#deals div.card {
+  width: 25%;
+}
+
+main div article#deals {
+  display: flex;
+}
+
+main div article#deals div.card {
+  width: 25%;
+}
+
+main div article#deals div.card h1 {
+  font-weight: 700;
+  font-size: 35px;
+  line-height: 42px;
+  color: #222223;
+  width: 221px;
+  font-family: "Bai Jamjuree", sans-serif;
+}
+
+main div article#deals div.card p.desc {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 30px;
+  letter-spacing: 0.01em;
+  font-family: "Roboto", sans-serif;
+  color: #535354;
+  margin-bottom: 30px;
+  width: 280px;
+}
+
+section#service {
+  height: 417px;
+  background-color: #b9e2fa;
+  margin-top: 52px;
+  position: relative;
+}
+
+section#service img {
+  position: absolute;
+  top: -30px;
+  left: 50%;
+}
+
+section#service main {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100%;
+}
+
+section#service main div.card-container {
+  width: 50%;
+  display: flex;
+  justify-content: center;
+}
+
+section#service main div.card-container div.card-service {
+  width: 264px;
+}
+
+section#service main div.card-service h1 {
+  font-family: "Bai Jamjuree";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 30px;
+  line-height: 38px;
+  color: #202020;
+  margin-bottom: 16px;
+}
+
+section#service main div.card-service p {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 26px;
+  letter-spacing: 0.02em;
+  color: #5f5f64;
+}
+
+section#customer {
+  height: 300px;
+  margin-top: 151px;
+  margin-bottom: 80px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+section#customer h1 {
+  font-family: "Bai Jamjuree";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 80px;
+  line-height: 80px;
+  text-align: center;
+  letter-spacing: 0.01em;
+  color: #0d1111;
+  margin-bottom: 40px;
+}
+
+section#customer p {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 28px;
+  text-align: center;
+  color: #767e7e;
+  width: 641px;
+}
