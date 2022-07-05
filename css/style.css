@@ -29,13 +29,6 @@
   }
 
   header nav a {
-    /* text-decoration: none;
-    font-family: "Roboto", sans-serif;
-    font-weight: 500;
-    font-size: 14px;
-    line-height: 20px;
-    color: #404041;
-    padding-right: 44px; */
     display: none;
   }
 
@@ -46,9 +39,6 @@
   }
 
   header div.icon {
-    /* width: 45%;
-    display: flex;
-    justify-content: end; */
     display: none;
   }
   main div article#hero .content {
@@ -183,13 +173,6 @@
   }
 
   div.footer-content nav a {
-    /* text-decoration: none;
-    font-family: "Roboto", sans-serif;
-    font-weight: 500;
-    font-size: 14px;
-    line-height: 20px;
-    color: #404041;
-    padding-right: 44px; */
     display: none;
   }
 
@@ -200,9 +183,6 @@
   }
 
   div.footer-content div.icon {
-    /* width: 45%;
-    display: flex;
-    justify-content: end; */
     display: none;
   }
 
